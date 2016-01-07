@@ -9,6 +9,8 @@ public class Client {
 		BankAccount bankaccount=new BankAccount(1234,123456,"987654321",15000);
 		Machine machine=new Machine(20000,10,8,40,200,display);
 		
+		
+		
 		//working transaction
 		controller.transaction(1234,123456, 5650,bankaccount,machine,display);
 		System.out.println("                             ");
